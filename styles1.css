@@ -1,7 +1,7 @@
 a:hover {color:red;} 
 #finding:focus {background-color: #DCDCDC;}
 #f1 {text-align: right; padding-top: 5px; padding-bottom: 70px;}
-#top {margin-left: 53px; margin-top: 10px; float: left;}
+#top {margin-left: 53px; margin-top: 10px; float: left; width:157px; height:82px;}
 #menu, #menu li {margin: 0;}
 #menu {text-align: right; margin-top: 5px;}
 #menu li {display: inline-block; text-align: center; color: blue; text-decoration: underline;}
