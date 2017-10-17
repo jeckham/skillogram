@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -13,9 +14,9 @@
 			<li> <a target="_blank" href="http://www.mail.ru/">О проекте</a> </li>
 		</ul>
 						
-		<form id="f1">  
+		<form id="f1" action="" method="post">  
 			<input id="finding" type="text" name="search" placeholder="Поиск..." value="<?=@$_POST['search'];?>">	
-			<input type="submit" value="OK" style="margin-left: -4px">
+			<input type="submit" value="OK" class="button">
 	    </form>	    
 
 	</div>
