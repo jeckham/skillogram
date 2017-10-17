@@ -2,11 +2,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Мир | Социальная сеть</title>
-	<link rel="stylesheet" href="styles1.css"/>
+	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>		
 	<div>
-		<img src="images/logo.jpg" id="top">		
+		<?php echo ("<img src=\"images/logo.jpg\" id=\"top\">"); ?>		
 	    <ul id="menu">
 			<li> <a target="_blank" href="http://www.yandex.ru/">Лента</a> </li>
 			<li> <a target="_blank" href="http://www.rambler.ru/">Добавить запись</a> </li>
@@ -14,8 +14,8 @@
 		</ul>
 						
 		<form id="f1">  
-			<input type="hidden" name="action" value="find">
-			<input id="finding" type="text" name="finding" placeholder="Поиск..." value="">	
+			<input id="finding" type="text" name="search" placeholder="Поиск..." value="<?=@$_POST['search'];?>">	
 			<input type="submit" value="OK" style="margin-left: -4px">
-	     </form>	     
-	</div>   
+	    </form>	    
+
+	</div>
