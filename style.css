@@ -6,11 +6,12 @@ a:hover {color:red;}
 #menu {text-align: right; margin-top: 5px;}
 #menu li {display: inline-block; text-align: center; color: blue; text-decoration: underline;}
 #container {margin: 0 auto; max-width: 400px;}
+#form {visibility: hidden; text-align: right;}
 .f2 {font-size: 12px; max-width: 400px; border-bottom: 40px solid #ffffff;}
 .mark {margin-top: 0px; margin-bottom: 0px; font-size: 10px; color: grey;}
 .icon {width:40px; height:40px; padding-right: 5px; float: left;}
 .foto {width:400px; height:250px; border-bottom: 7px solid #ffffff;}
 .like {width:50px; height:40px; float: left;}
 .button {margin-left: -4px;}
-.f3 {text-align: right;}
+.input {width: 249px;}
 num {font-size: 38px;}
